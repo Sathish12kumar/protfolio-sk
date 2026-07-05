@@ -1,0 +1,62 @@
+.skill {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  min-height: 70vh;
+  background: white;
+}
+.skill .skill-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 80%;
+}
+.skill .box {
+  border: 2px solid white;
+  padding: 10px;
+  width: 200px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px var(--primary);
+}
+.skill .box span {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: 500;
+  font-family: var(--bold-font);
+  letter-spacing: 1px;
+  line-height: 1;
+  font-size: 20px;
+}
+.skill .box .img {
+  position: relative;
+  height: 50px;
+  width: 50px;
+}
+.skill .box img {
+  height: 50px;
+  width: 50px;
+}
+.skill .box .colour {
+  opacity: 0;
+}
+.skill .box .colour,
+.skill .box .black {
+  position: absolute;
+  transition: 0.3s;
+}
+.skill .box:hover {
+  box-shadow: none;
+  color: var(--primary);
+}
+.skill .box:hover .colour {
+  opacity: 1;
+}
+.skill .box:hover .black {
+  opacity: 0;
+}

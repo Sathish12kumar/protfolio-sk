@@ -1,0 +1,92 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-height: 80vh;
+  margin: 10px;
+  border-radius: 10px;
+}
+.contact .subTitle {
+  text-align: left;
+}
+.contact .right-con {
+  width: 500px;
+  padding: 10px;
+}
+.contact .left-con {
+  max-width: 600px;
+  padding: 10px;
+}
+.contact .left-con .para {
+  margin: 10px 0;
+  padding: 0;
+  text-align: left;
+}
+.contact .left-con .box {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.contact .left-con .box .icon {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary);
+  color: var(--secondary);
+  border-radius: 5px;
+}
+.contact .left-con .name {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: var(--bold-font);
+  line-height: 1;
+  padding-bottom: 5px;
+}
+.contact .left-con .box .icon i {
+  font-size: 30px;
+}
+.contact .right-con .ipt {
+  padding: 10px 0;
+}
+.contact .right-con legend {
+  padding-bottom: 5px;
+}
+.contact .right-con input {
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.contact .right-con textarea {
+  width: 100%;
+  resize: none;
+  border-radius: 5px;
+  padding: 10px;
+  height: 100px;
+  background: transparent;
+  outline: none;
+}
+.contact .right-con button {
+  height: 50px;
+  width: calc(100% - 0px);
+  background: var(--primary);
+  font-size: var(--font-size);
+  border-radius: 10px;
+}
+.contact .right-con button:hover {
+  background: var(--hover);
+}
+.contact .toast {
+  position: absolute;
+}
